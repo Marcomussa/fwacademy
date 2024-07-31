@@ -19693,6 +19693,7 @@
     visibility: visible !important;
     opacity: 1 !important;
     width: auto !important;
+    max-height: 80px;
   }
   header .navbar-brand .mobile-logo:focus {
     outline: none;

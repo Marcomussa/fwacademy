@@ -50,7 +50,7 @@ Table of contents
 }
 
 :root {
-  --base-color: #2946f3;
+  --base-color: #31c679;
   --white: #ffffff;
   --black: #000000;
   --red: #dc3131;
@@ -6998,7 +6998,7 @@ header .navbar.mini-header .navbar-brand img {
 header .navbar-brand {
   margin-right: 0;
   vertical-align: middle;
-  padding: 30px 0;
+  padding: 20px 0;
   display: inline-block;
   font-size: 0;
 }
@@ -7013,7 +7013,7 @@ header .navbar-brand .alt-logo, header .navbar-brand .mobile-logo {
   width: 0;
 }
 header .navbar-brand img {
-  max-height: 46px;
+  max-height: 100px;
 }
 header .header-top-bar {
   position: fixed;
