@@ -45,6 +45,10 @@ Table of contents
 /* ===================================
     02. CSS color variable
 ====================================== */
+.premio-list li{
+  list-style: disc;
+}
+
 :root {
   --base-color: #2946f3;
   --white: #ffffff;
