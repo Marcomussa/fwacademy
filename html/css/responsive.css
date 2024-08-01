@@ -1181,6 +1181,9 @@
   }
 }
 @media (max-width: 575px) {
+  .h-70 {
+    height: 100% !important;
+  }
   /* Font size */
   .xs-fs-0 {
     font-size: 0;

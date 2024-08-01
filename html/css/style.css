@@ -53,6 +53,10 @@ html {
   scroll-behavior: smooth !important;
 }
 
+.fa-brands {
+  font-size: 50px;
+}
+
 :root {
   --base-color: #31c679;
   --white: #ffffff;
