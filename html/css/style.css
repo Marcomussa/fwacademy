@@ -49,6 +49,10 @@ Table of contents
   list-style: disc;
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 :root {
   --base-color: #31c679;
   --white: #ffffff;
