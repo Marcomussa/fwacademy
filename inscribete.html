@@ -134,43 +134,45 @@
                                         <label for="name-form" class="form-label fw-600 text-dark-gray mb-0">Nombre*</label>
                                         <div class="position-relative form-group mb-25px">
                                             <span class="form-icon"><i class="bi bi-emoji-smile"></i></span>
-                                            <input class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required" id="name-form" type="text" name="name" placeholder="Ingrese su Nombre" />
+                                            <input class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control" required id="name-form" type="text" name="name" placeholder="Ingrese su Nombre" />
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <label for="email-form" class="form-label fw-600 text-dark-gray mb-0">Email*</label>
                                         <div class="position-relative form-group mb-25px">
                                             <span class="form-icon"><i class="bi bi-envelope"></i></span>
-                                            <input class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required" id="email-form" type="email" name="email" placeholder="Ingrese su Email" />
+                                            <input class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control"required id="email-form" type="email" name="email" placeholder="Ingrese su Email" />
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <label for="phone-form" class="form-label fw-600 text-dark-gray mb-0">Teléfono</label>
                                         <div class="position-relative form-group mb-25px">
                                             <span class="form-icon"><i class="bi bi-telephone"></i></span>
-                                            <input class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control" id="phone-form" type="tel" name="phone" placeholder="Ingrese su Numero de Teléfono" />
+                                            <input required class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control" id="phone-form" type="tel" name="phone" placeholder="Ingrese su Numero de Teléfono" />
                                         </div>
                                     </div> 
                                     <div class="col-md-6">
                                         <label for="subject-form" class="form-label fw-600 text-dark-gray mb-0">Asunto</label>
                                         <div class="position-relative form-group mb-25px">
                                             <span class="form-icon"><i class="bi bi-journals"></i></span>
-                                            <input class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control" id="subject-form" type="text" name="subject" placeholder="Asunto" />
+                                            <input required class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control" id="subject-form" type="text" name="subject" placeholder="Asunto" />
                                         </div>
                                     </div>
                                     <div class="col-12 mb-4">
                                         <label for="message-form" class="form-label fw-600 text-dark-gray mb-0">Mensaje</label>
                                         <div class="position-relative form-group form-textarea mb-0"> 
-                                            <textarea id="message-form" class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control" name="comment" placeholder="¿Qué quieres decirnos?" rows="4"></textarea>
+                                            <textarea required id="message-form" class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control" name="comment" placeholder="¿Qué quieres decirnos?" rows="4"></textarea>
                                             <span class="form-icon"><i class="bi bi-chat-square-dots"></i></span>
                                         </div>
                                     </div>
-                                    <div class="col-xxl-6 col-lg-7 col-md-8">
-                                        <p class="mb-0 fs-14 lh-24 text-center text-md-start">Nos comprometemos a proteger su privacidad. Nunca recopilaremos información sobre usted sin su consentimiento explícito.</p>
-                                    </div>
-                                    <div class="col-xxl-6 col-lg-5 col-md-4 text-center text-md-end sm-mt-25px">
+                                    
+                                    <div class="g-recaptcha col-md-6" data-sitekey="6LeNlBgqAAAAAIHmAXGMGWppbrh3vewkq_aJJEVN"></div>
+                                    <div class="col-md-6 text-center text-md-end sm-mt-25px">
                                         <input id="exampleInputEmail5" type="hidden" name="redirect" value="">
-                                        <button class="btn btn-medium btn-dark-gray btn-box-shadow btn-round-edge text-transform-none primary-font" type="submit">Enviar Mensaje</button>
+                                        <button class="btn btn-medium btn-dark-gray btn-box-shadow btn-round-edge text-transform-none primary-font" type="submit" id="submit-form">Enviar Mensaje</button>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <p class="mb-0 fs-14 lh-24 text-center text-md-start">Nos comprometemos a proteger su privacidad. Nunca recopilaremos información sobre usted sin su consentimiento explícito.</p>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-results mt-20px d-none"></div>
@@ -215,7 +217,7 @@
                         <!-- end footer column -->
                         <!-- start footer column -->
                         <div class="col-xl-3 col-lg-3 col-sm-6 md-mb-50px sm-mb-30px xs-mb-0 order-sm-2 order-lg-5">
-                            <span class="fs-17 fw-600 d-block text-dark-gray mb-5px">futurewaveacademy@gmail.com</span>
+                            <span class="fs-17 fw-600 d-block text-dark-gray mb-5px">rebeca@thefwacademy.com</span>
                             <p class="lh-30 w-95 sm-w-100 mb-15px">+54 9 3487 675731 </p>
                             <p>Juana Manso 1180, CABA</p>
                         </div>
@@ -248,9 +250,11 @@
             <!-- end scroll progress -->
         </div>
         <!-- javascript libraries -->
-        <script type="text/javascript" src="../html/js/jquery.js"></script>
-        <script type="text/javascript" src="../html/js/vendors.min.js"></script>
-    
-        <script type="text/javascript" src="../html/js/main.js"></script>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script type="text/javascript" src="./html/js/jquery.js"></script>
+        <script type="text/javascript" src="./html/js/vendors.min.js"></script>
+        <script type="text/javascript" src="./html/js/main.js"></script>
     </body>
 </html>
