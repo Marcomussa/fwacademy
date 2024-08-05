@@ -1,4 +1,6 @@
-emailjs.init("L1qm-9gR2wzpCjKoE");
+emailjs.init({
+    "publicKey": "L1qm-9gR2wzpCjKoE"
+});
 
 const contactForm = document.getElementById("contact-form")
 const nameForm = document.getElementById("name-form")
@@ -64,6 +66,8 @@ document.addEventListener("DOMContentLoaded", () => {
         function (err) {
           submitBTN.innerText = "Error";
           submitBTN.setAttribute("data-text", "Error");
+
+          console.log(err)
 
           Swal.fire({
             title: "¡Ha ocurrido un error!",
