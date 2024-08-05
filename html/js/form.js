@@ -1,4 +1,4 @@
-emailjs.init("");
+emailjs.init("L1qm-9gR2wzpCjKoE");
 
 const contactForm = document.getElementById("contact-form")
 const nameForm = document.getElementById("name-form")
@@ -8,8 +8,8 @@ const subject = document.getElementById("subject-form")
 const message = document.getElementById("text-form")
 const submitBTN = document.getElementById("submit-form");
 
-const serviceID = ""
-const templateID = ""
+const serviceID = "service_3hk662q"
+const templateID = "template_poba9mw"
 
 document.addEventListener("DOMContentLoaded", () => {
     contactForm.addEventListener('submit', function(event) {
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         const templateParams = {
                             nameForm: nameForm.value,
                             email: email.value,
-                            phone: business.phone,
+                            phone: phone.phone,
                             subject: subject.value,
                             message: message.value,
                         };
