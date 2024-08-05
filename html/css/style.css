@@ -45,6 +45,10 @@ Table of contents
 /* ===================================
     02. CSS color variable
 ====================================== */
+#navbar {
+  position: fixed;
+}
+
 .premio-list li{
   list-style: disc;
 }
