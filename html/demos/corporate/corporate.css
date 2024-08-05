@@ -194,8 +194,17 @@ h2 {
     letter-spacing: 0;
     background-color: transparent;
 }
+.bg-green-aqua {
+    background-image: linear-gradient(to right, #2abc7b,#1eaeaf);
+
+}
 .btn-gradient-flamingo-amethyst-green {
-    background-image: linear-gradient(to right, #f7693c, #c74e45, #7d3785, #582d9f, #3928af, #582d9f, #7d3785, #c74e45, #f7693c);
+    background-image: linear-gradient(to right, #2abc7b, #2abc7b,#1eaeaf, #2abc7b, #2abc7b,#1eaeaf);
+    background-size: 200% auto;
+    color: var(--white);
+}
+.btn-gradient-fw {
+    background-image: linear-gradient(to right, #2abc7b, #1eaeaf );
     background-size: 200% auto;
     color: var(--white);
 }
