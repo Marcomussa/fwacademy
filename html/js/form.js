@@ -5,7 +5,7 @@ const nameForm = document.getElementById("name-form")
 const email = document.getElementById("email-form")
 const phone = document.getElementById("phone-form")
 const subject = document.getElementById("subject-form")
-const message = document.getElementById("text-form")
+const message = document.getElementById("message-form")
 const submitBTN = document.getElementById("submit-form");
 
 const serviceID = "service_3hk662q"
