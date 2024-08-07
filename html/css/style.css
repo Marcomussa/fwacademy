@@ -58,7 +58,14 @@ html {
 }
 
 .fa-brands {
-  font-size: 50px;
+  font-size: 40px;
+}
+
+.fa-arrow,
+.fa-arrow-right,
+.icon-feather-arrow-right,
+.icon-feather-arrow-left {
+  color: #000 !important;
 }
 
 :root {
@@ -598,6 +605,9 @@ b, strong {
 }
 .text-base-color-hover:hover {
   color: var(--base-color) !important;
+}
+.text-turquesa {
+  color: #73bfa9 !important;
 }
 .text-base-color, .btn-link.text-base-color {
   color: var(--base-color);
@@ -3197,7 +3207,7 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
 ====================================== */
 /* Background color */
 .bg-base-color {
-  background-color: var(--base-color);
+  background-color: #1eaeaf;
 }
 .bg-dark-gray,
 .bg-dark-gray:focus {
@@ -7025,7 +7035,7 @@ header .navbar-brand .alt-logo, header .navbar-brand .mobile-logo {
   width: 0;
 }
 header .navbar-brand img {
-  max-height: 100px;
+  max-height: 85px;
 }
 header .header-top-bar {
   position: fixed;

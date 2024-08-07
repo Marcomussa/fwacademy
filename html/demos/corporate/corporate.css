@@ -123,8 +123,8 @@ h2 {
     background-image: linear-gradient(to top, rgba(60, 47, 192, .8) 0%, transparent 100%);
 }
 .bg-gradient-regal-blue-transparent {
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(22 35 64)), to(transparent));
-    background-image: linear-gradient(to top, rgb(22 35 64) 0%, transparent 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1eaeaf), to(transparent));
+    background-image: linear-gradient(to top, #1eaeaf -50%, transparent 100%);
 }
 .bg-gradient-flamingo-amethyst-green {
     background-image: linear-gradient(to right, #f7693c, #c74e45, #7d3785, #582d9f, #3928af);
@@ -199,7 +199,7 @@ h2 {
 
 }
 .btn-gradient-flamingo-amethyst-green {
-    background-image: linear-gradient(to right, #2abc7b, #2abc7b,#1eaeaf, #2abc7b, #2abc7b,#1eaeaf);
+    background-image: linear-gradient(to right,#1eaeaf, #1eaeaf);
     background-size: 200% auto;
     color: var(--white);
 }
