@@ -119,8 +119,8 @@ h2 {
     background-image: linear-gradient(to bottom, #f7f7ff, #f4f4fb, #f8f7fc, #fbfbfe, #ffffff);
 }
 .bg-gradient-base-color-transparent {
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(60 47 192)), to(transparent));
-    background-image: linear-gradient(to top, rgba(60, 47, 192, .8) 0%, transparent 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1eaeaf), to(transparent));
+    background-image: linear-gradient(to top, #1eaeaf 0%, transparent 100%);
 }
 .bg-gradient-regal-blue-transparent {
     background-image: -webkit-gradient(linear, left bottom, left top, from(#1eaeaf), to(transparent));
@@ -134,8 +134,8 @@ h2 {
     background-image: linear-gradient(to top, rgba(22, 32, 44, .9) 8%, transparent 80%);
 }
 .bg-gradient-dark-transparent {
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(7%, #162340), to(transparent));
-    background: linear-gradient(to top, #162340 7%, transparent 70%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(7%, #1eaeaf), to(transparent));
+    background: linear-gradient(to top, #1eaeaf 7%, transparent 70%);
 }
 .bg-regal-blue {
     background-color: #162340;

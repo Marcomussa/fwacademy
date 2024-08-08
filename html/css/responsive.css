@@ -3582,6 +3582,12 @@
   }
 }
 @media (max-width: 575px) {
+  .video-banner {
+    background-position-y: -10px !important;
+  }
+  .video-banner div div h3 {
+    color: rgb(22, 22, 22) !important;
+  }
   /* Screen height */
   .xs-extra-small-screen {
     height: 300px !important;
