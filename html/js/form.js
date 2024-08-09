@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         const templateParams = {
                             nameForm: nameForm.value,
                             email: email.value,
-                            phone: phone.phone,
+                            phone: phone.value,
                             subject: subject.value,
                             message: message.value,
                         };
