@@ -3581,7 +3581,15 @@
     max-width: 330px;
   }
 }
+
+.inscribete-banner {
+  background-size: inherit !important;
+}
+
 @media (max-width: 575px) {
+  .inscribete-banner {
+    background-size: cover !important;
+  }
   .video-banner {
     background-position-y: -10px !important;
   }
