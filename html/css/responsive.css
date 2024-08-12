@@ -19717,7 +19717,7 @@
     padding-bottom: 0;
   }
   header .navbar-brand {
-    padding: 22px 0;
+    padding: 11px 0;
   }
   header .navbar-brand .default-logo, header .navbar-brand .alt-logo {
     visibility: hidden !important;
@@ -19728,7 +19728,7 @@
     visibility: visible !important;
     opacity: 1 !important;
     width: auto !important;
-    max-height: 80px;
+    max-height: 70px;
   }
   header .navbar-brand .mobile-logo:focus {
     outline: none;
@@ -20279,6 +20279,10 @@
   }
 }
 @media (max-width: 767px) {
+  .premio-title {
+    font-size: 3.5rem !important;
+    line-height: 3.5rem !important;
+  }
   header .navbar-expand-lg {
     padding-left: 0;
     padding-right: 0;
